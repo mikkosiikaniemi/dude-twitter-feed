@@ -3,7 +3,7 @@
  * Plugin Name: Dude Twitter feed
  * Plugin URI: https://github.com/digitoimistodude/dude-twitter-feed
  * Description: Fetches the latest tweets for spesified users and hashtags.
- * Version: 0.2.1
+ * Version: 0.3
  * Author: Digitoimisto Dude Oy, Timi Wahalahti
  * Author URI: https://www.dude.fi
  * Requires at least: 4.4.2
@@ -16,7 +16,7 @@
 if( !defined( 'ABSPATH' )  )
 	exit();
 
-require 'twitteroauth/autoload.php';
+require 'vendor/autoload.php';
 use Abraham\TwitterOAuth\TwitterOAuth;
 
 Class Dude_Twitter_Feed {
@@ -129,7 +129,7 @@ Class Dude_Twitter_Feed {
 
 		return $response;
 	} // end function get_hashtag_tweets
-	
+
 	public function get_user_info( $screen_name = '' ) {
 		if( empty( $screen_name ) )
 			return;

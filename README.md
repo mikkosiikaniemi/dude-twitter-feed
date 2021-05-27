@@ -13,13 +13,14 @@ Plugin uses [twitteroauth library](https://github.com/abraham/twitteroauth) made
 ## Table of contents
 1. [Please note before using](#please-note-before-using)
 2. [License](#license)
-3. [Usage](#usage)
+3. [Installation](#install)
+4. [Usage](#usage)
   1. [Usage example for displaying a Twitter user feed](#usage-example-for-displaying-a-twitter-user-feed)
   2. [Limiting feed items](#limiting-feed-items)
   3. [Make tweet links clickable](#make-tweet-links-clickable)
-4. [Hooks](#hooks)
-5. [Composer](#composer)
-6. [Contributing](#contributing)
+5. [Hooks](#hooks)
+6. [Composer](#composer)
+7. [Contributing](#contributing)
 
 ## Please note before using
 This plugin is not meant to be "plugin for everyone", it needs at least some basic knowledge about php and css to add it to your site and making it look beautiful.
@@ -28,6 +29,12 @@ This is a plugin in development for now, so it may update very often.
 
 ## License
 Dude Tweets feed is released under the GNU GPL 2 or later.
+
+## Installation
+1. Clone this repository to your WordPress installation's plugins folder.
+2. Run `composer install` inside the cloned folder to install the required TwitterOAuth library and its dependencies.
+
+You can also include this plugin as a [Composer](#composer) dependency in your project.
 
 ## Usage
 This plugin does not have settings page or provide anything visible on front-end. So it's basically dumb plugin if you don't use any filters listed below.

@@ -12,5 +12,8 @@
       "email": "timi@dude.fi",
       "homepage": "https://www.dude.fi"
     }
-  ]
+  ],
+  "require": {
+    "abraham/twitteroauth": "^2.0"
+  }
 }
