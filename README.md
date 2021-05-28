@@ -13,7 +13,7 @@ Plugin uses [twitteroauth library](https://github.com/abraham/twitteroauth) made
 ## Table of contents
 1. [Please note before using](#please-note-before-using)
 2. [License](#license)
-3. [Installation](#install)
+3. [Installation](#installation)
 4. [Usage](#usage)
   1. [Usage example for displaying a Twitter user feed](#usage-example-for-displaying-a-twitter-user-feed)
   2. [Limiting feed items](#limiting-feed-items)
